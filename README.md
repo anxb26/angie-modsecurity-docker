@@ -8,6 +8,10 @@ Production-ready Angie web server with ModSecurity WAF, Fail2Ban, OWASP CRS 4.x,
 [![Angie](https://img.shields.io/badge/Angie-1.10.3-green.svg)](https://angie.software/)
 [![OWASP CRS](https://img.shields.io/badge/OWASP%20CRS-4.18.0-orange.svg)](https://coreruleset.org/)
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. PRs should target the `dev` branch and pass CI checks before merge to `main`.
+
 ## Features
 
 ### Security

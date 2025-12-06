@@ -10,7 +10,9 @@
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Instead, please report them via email or private message to the repository maintainer.
+Instead, please report them via:
+- **GitHub Security Advisories**: [Report a vulnerability](https://github.com/hvaclab/angie-modsecurity-docker/security/advisories/new)
+- **Email**: security@hvaclab.ru (если есть)
 
 Include:
 - Description of the vulnerability

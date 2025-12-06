@@ -1,0 +1,26 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Shell scripts must use LF
+*.sh text eol=lf
+
+# Docker files
+Dockerfile text eol=lf
+*.dockerfile text eol=lf
+
+# Config files
+*.yml text eol=lf
+*.yaml text eol=lf
+*.conf text eol=lf
+*.json text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Exclude binary files from diff
+*.mmdb binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
