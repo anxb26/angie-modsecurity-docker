@@ -8,11 +8,11 @@
 # ------------------------------------------------------------------------------
 # Stage 1: Builder - download CRS rules
 # ------------------------------------------------------------------------------
-FROM alpine:3.20 AS crs-builder
+FROM alpine:3.21 AS crs-builder
 
 # Install git for cloning CRS (pinned version for reproducibility)
 # hadolint ignore=DL3018
-RUN apk add --no-cache git~=2.45
+RUN apk add --no-cache git~=2.47
 
 # Clone OWASP CoreRuleSet (auto-updated on each build)
 ARG CRS_VERSION=v4.18.0
